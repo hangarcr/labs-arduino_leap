@@ -1,17 +1,17 @@
  //custom LeapGamer.com copyright James Blaha
  //This software is copyrighted under an MIT license
  //https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt
- (function($) {       
+ (function($) {
     var leapData = [];
     //var returnLeapData = [];
-    var ws;     
+    var ws;
     var funcs = [];
     var deltaTime;
     var frameCount = 0;
     var fps;
     var lastFrameTime;
     var lastFrameHands = 0;
-    var blankFunc = function() { }; 
+    var blankFunc = function() { };
     var isInit = false;
     var lastFramePointers = 0;
     var timeBegan = 0;
@@ -34,7 +34,7 @@
     
     var tapTimer = 20;
     var pushingTimer = 50;
-    var swipingTimer = 50;  
+    var swipingTimer = 50;
     var grabbingTimer = 10;
     var pokeTimer = 20;
     
@@ -49,19 +49,19 @@
         onSecondChange : blankFunc,
         onTap : blankFunc,
         onPush : blankFunc,
-        onWind : blankFunc, 
-        onPoke : blankFunc, 
-        onSwipe : blankFunc, 
+        onWind : blankFunc,
+        onPoke : blankFunc,
+        onSwipe : blankFunc,
         onGrab : blankFunc,
-        onWiggle : blankFunc 
-    }
+        onWiggle : blankFunc
+    };
     
     //define our functions
     var methods = {
         initLeap : function() {
           console.log("Loaded plugin!!");
  
-		  if(typeof(window.Leap) == "undefined") { 
+		  if(typeof(window.Leap) == "undefined") {
 			  // Support both the WebSocket and MozWebSocket objects
 			  if ((typeof(WebSocket) == 'undefined') && (typeof(MozWebSocket) != 'undefined')) {
 				 WebSocket = MozWebSocket;
