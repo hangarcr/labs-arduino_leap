@@ -1,0 +1,1763 @@
+<!DOCTYPE html>
+<!-- saved from url=(0137)http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=functions%2Fcustom-functions.php&theme=smartstart&scrollto=13382&updated=true -->
+<html xmlns="http://www.w3.org/1999/xhtml" class="wp-toolbar" dir="ltr" lang="en-US"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Edit Themes ‹ STEM Magnet Academy — WordPress</title>
+<script type="text/javascript" async="" src="./Edit Themes ‹ STEM Magnet Academy — WordPress_files/load.js"></script><script type="text/javascript">
+addLoadEvent = function(func){if(typeof jQuery!="undefined")jQuery(document).ready(func);else if(typeof wpOnload!='function'){wpOnload=func;}else{var oldonload=wpOnload;wpOnload=function(){oldonload();func();}}};
+var userSettings = {
+		'url': '/',
+		'uid': '1',
+		'time':'1379955574'
+	},
+	ajaxurl = '/wp-admin/admin-ajax.php',
+	pagenow = 'theme-editor',
+	typenow = '',
+	adminpage = 'theme-editor-php',
+	thousandsSeparator = ',',
+	decimalPoint = '.',
+	isRtl = 0;
+</script>
+<link rel="stylesheet" href="./Edit Themes ‹ STEM Magnet Academy — WordPress_files/load-styles.php" type="text/css" media="all">
+<link rel="stylesheet" id="colors-css" href="./Edit Themes ‹ STEM Magnet Academy — WordPress_files/colors-fresh.css" type="text/css" media="all">
+<!--[if lte IE 7]>
+<link rel='stylesheet' id='ie-css'  href='http://stemmagnetacademy.com/wp-admin/css/ie.css?ver=3.4.1' type='text/css' media='all' />
+<![endif]-->
+	<script type="text/javascript">
+	/* <![CDATA[ */
+	function selectcb(thisobj,var1){
+		var o = document.forms[thisobj].elements;
+		if(o){
+			for (i=0; i<o.length; i++){
+				if (o[i].type == 'checkbox'){
+					o[i].checked = var1;
+				}
+			}
+		}
+	}
+	/* ]]> */
+	</script>
+	
+<script type="text/javascript">
+/* <![CDATA[ */
+var quicktagsL10n = {"wordLookup":"Enter a word to look up:","dictionaryLookup":"Dictionary lookup","lookup":"lookup","closeAllOpenTags":"Close all open tags","closeTags":"close tags","enterURL":"Enter the URL","enterImageURL":"Enter the URL of the image","enterImageDescription":"Enter a description of the image","fullscreen":"fullscreen","toggleFullscreen":"Toggle fullscreen mode","textdirection":"text direction","toggleTextdirection":"Toggle Editor Text Direction"};/* ]]> */
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ STEM Magnet Academy — WordPress_files/load-scripts.php"></script>
+<script type="text/javascript" src="./Edit Themes ‹ STEM Magnet Academy — WordPress_files/quicktags.js"></script>
+			<script type="text/javascript">
+			/* <![CDATA[ */
+				(function() {
+					var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+					s.type = 'text/javascript';
+					s.async = true;
+					s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+					t.parentNode.insertBefore(s, t);
+				})();
+			/* ]]> */
+			</script>
+			
+			<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+</head>
+<body class="wp-admin js  theme-editor-php admin-bar branch-3-4 version-3-4-1 admin-color-fresh locale-en-us no-customize-support">
+<script type="text/javascript">
+	document.body.className = document.body.className.replace('no-js','js');
+</script>
+
+
+<div id="wpwrap">
+
+<div id="adminmenuback"></div>
+<div id="adminmenuwrap">
+<div id="adminmenushadow"></div>
+<ul id="adminmenu" role="navigation">
+
+
+	<li class="wp-first-item wp-has-submenu wp-not-current-submenu menu-top menu-top-first menu-icon-dashboard menu-top-last" id="menu-dashboard">
+	<div class="wp-menu-image"><a href="http://stemmagnetacademy.com/wp-admin/index.php" aria-label="Dashboard"><br></a></div><div class="wp-menu-arrow"><div></div></div><a href="http://stemmagnetacademy.com/wp-admin/index.php" class="wp-first-item wp-has-submenu wp-not-current-submenu menu-top menu-top-first menu-icon-dashboard menu-top-last" tabindex="1" aria-haspopup="true">Dashboard</a>
+	<div class="wp-submenu"><div class="wp-submenu-wrap"><div class="wp-submenu-head">Dashboard</div><ul><li class="wp-first-item"><a href="http://stemmagnetacademy.com/wp-admin/index.php" class="wp-first-item" tabindex="1">Home</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/update-core.php" tabindex="1">Updates <span class="update-plugins count-6" title="1 WordPress Update, 3 Plugin Updates, 2 Theme Updates"><span class="update-count">6</span></span></a></li><li><a href="http://stemmagnetacademy.com/wp-admin/index.php?page=theme-update-notifier" tabindex="1">SmartStart <span class="update-plugins count-1"><span class="update-count">Updates</span></span></a></li></ul></div></div></li>
+	<li class="wp-not-current-submenu wp-menu-separator"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu open-if-no-js menu-top menu-icon-post menu-top-first" id="menu-posts">
+	<div class="wp-menu-image"><a href="http://stemmagnetacademy.com/wp-admin/edit.php" aria-label="Posts"><br></a></div><div class="wp-menu-arrow"><div></div></div><a href="http://stemmagnetacademy.com/wp-admin/edit.php" class="wp-has-submenu wp-not-current-submenu open-if-no-js menu-top menu-icon-post menu-top-first" tabindex="1" aria-haspopup="true">Posts</a>
+	<div class="wp-submenu"><div class="wp-submenu-wrap"><div class="wp-submenu-head">Posts</div><ul><li class="wp-first-item"><a href="http://stemmagnetacademy.com/wp-admin/edit.php" class="wp-first-item" tabindex="1">All Posts</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/post-new.php" tabindex="1">Add New</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/edit-tags.php?taxonomy=category" tabindex="1">Categories</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/edit-tags.php?taxonomy=post_tag" tabindex="1">Tags</a></li></ul></div></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" id="menu-media">
+	<div class="wp-menu-image"><a href="http://stemmagnetacademy.com/wp-admin/upload.php" aria-label="Media"><br></a></div><div class="wp-menu-arrow"><div></div></div><a href="http://stemmagnetacademy.com/wp-admin/upload.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" tabindex="1" aria-haspopup="true">Media</a>
+	<div class="wp-submenu"><div class="wp-submenu-wrap"><div class="wp-submenu-head">Media</div><ul><li class="wp-first-item"><a href="http://stemmagnetacademy.com/wp-admin/upload.php" class="wp-first-item" tabindex="1">Library</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/media-new.php" tabindex="1">Add New</a></li></ul></div></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-links" id="menu-links">
+	<div class="wp-menu-image"><a href="http://stemmagnetacademy.com/wp-admin/link-manager.php" aria-label="Links"><br></a></div><div class="wp-menu-arrow"><div></div></div><a href="http://stemmagnetacademy.com/wp-admin/link-manager.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-links" tabindex="1" aria-haspopup="true">Links</a>
+	<div class="wp-submenu"><div class="wp-submenu-wrap"><div class="wp-submenu-head">Links</div><ul><li class="wp-first-item"><a href="http://stemmagnetacademy.com/wp-admin/link-manager.php" class="wp-first-item" tabindex="1">All Links</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/link-add.php" tabindex="1">Add New</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/edit-tags.php?taxonomy=link_category" tabindex="1">Link Categories</a></li></ul></div></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" id="menu-pages">
+	<div class="wp-menu-image"><a href="http://stemmagnetacademy.com/wp-admin/edit.php?post_type=page" aria-label="Pages"><br></a></div><div class="wp-menu-arrow"><div></div></div><a href="http://stemmagnetacademy.com/wp-admin/edit.php?post_type=page" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" tabindex="1" aria-haspopup="true">Pages</a>
+	<div class="wp-submenu"><div class="wp-submenu-wrap"><div class="wp-submenu-head">Pages</div><ul><li class="wp-first-item"><a href="http://stemmagnetacademy.com/wp-admin/edit.php?post_type=page" class="wp-first-item" tabindex="1">All Pages</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/post-new.php?post_type=page" tabindex="1">Add New</a></li></ul></div></div></li>
+	<li class="wp-not-current-submenu menu-top menu-icon-comments" id="menu-comments">
+	<div class="wp-menu-image"><a href="http://stemmagnetacademy.com/wp-admin/edit-comments.php" aria-label="Comments 0"><br></a></div><div class="wp-menu-arrow"><div></div></div><a href="http://stemmagnetacademy.com/wp-admin/edit-comments.php" class="wp-not-current-submenu menu-top menu-icon-comments" tabindex="1">Comments <span class="awaiting-mod count-0"><span class="pending-count">0</span></span></a></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-portfolio" id="menu-posts-portfolio">
+	<div class="wp-menu-image"><a href="http://stemmagnetacademy.com/wp-admin/edit.php?post_type=portfolio" aria-label="Portfolio"><img src="./Edit Themes ‹ STEM Magnet Academy — WordPress_files/icon-portfolio.png" alt=""></a></div><div class="wp-menu-arrow"><div></div></div><a href="http://stemmagnetacademy.com/wp-admin/edit.php?post_type=portfolio" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-portfolio" tabindex="1" aria-haspopup="true">Portfolio</a>
+	<div class="wp-submenu"><div class="wp-submenu-wrap"><div class="wp-submenu-head">Portfolio</div><ul><li class="wp-first-item"><a href="http://stemmagnetacademy.com/wp-admin/edit.php?post_type=portfolio" class="wp-first-item" tabindex="1">Portfolio</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/post-new.php?post_type=portfolio" tabindex="1">Add New</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/edit-tags.php?taxonomy=portfolio-categories&post_type=portfolio" tabindex="1">Categories</a></li></ul></div></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-slider" id="menu-posts-slider">
+	<div class="wp-menu-image"><a href="http://stemmagnetacademy.com/wp-admin/edit.php?post_type=slider" aria-label="Sliders"><img src="./Edit Themes ‹ STEM Magnet Academy — WordPress_files/icon-slider.png" alt=""></a></div><div class="wp-menu-arrow"><div></div></div><a href="http://stemmagnetacademy.com/wp-admin/edit.php?post_type=slider" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-slider" tabindex="1" aria-haspopup="true">Sliders</a>
+	<div class="wp-submenu"><div class="wp-submenu-wrap"><div class="wp-submenu-head">Sliders</div><ul><li class="wp-first-item"><a href="http://stemmagnetacademy.com/wp-admin/edit.php?post_type=slider" class="wp-first-item" tabindex="1">Sliders</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/post-new.php?post_type=slider" tabindex="1">Add New</a></li></ul></div></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-team" id="menu-posts-team">
+	<div class="wp-menu-image"><a href="http://stemmagnetacademy.com/wp-admin/edit.php?post_type=team" aria-label="Team"><img src="./Edit Themes ‹ STEM Magnet Academy — WordPress_files/icon-team.png" alt=""></a></div><div class="wp-menu-arrow"><div></div></div><a href="http://stemmagnetacademy.com/wp-admin/edit.php?post_type=team" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-team" tabindex="1" aria-haspopup="true">Team</a>
+	<div class="wp-submenu"><div class="wp-submenu-wrap"><div class="wp-submenu-head">Team</div><ul><li class="wp-first-item"><a href="http://stemmagnetacademy.com/wp-admin/edit.php?post_type=team" class="wp-first-item" tabindex="1">Team</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/post-new.php?post_type=team" tabindex="1">Add New</a></li></ul></div></div></li>
+	<li class="wp-not-current-submenu menu-top toplevel_page_wpcf7 menu-top-last" id="toplevel_page_wpcf7">
+	<div class="wp-menu-image"><a href="http://stemmagnetacademy.com/wp-admin/admin.php?page=wpcf7" aria-label="Contact"><img src="./Edit Themes ‹ STEM Magnet Academy — WordPress_files/menu-icon.png" alt=""></a></div><div class="wp-menu-arrow"><div></div></div><a href="http://stemmagnetacademy.com/wp-admin/admin.php?page=wpcf7" class="wp-not-current-submenu menu-top toplevel_page_wpcf7 menu-top-last" tabindex="1">Contact</a></li>
+	<li class="wp-not-current-submenu wp-menu-separator"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-icon-appearance menu-top-first" id="menu-appearance">
+	<div class="wp-menu-image"><a href="http://stemmagnetacademy.com/wp-admin/themes.php" aria-label="Appearance"><br></a></div><div class="wp-menu-arrow"><div></div></div><a href="http://stemmagnetacademy.com/wp-admin/themes.php" class="wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-icon-appearance menu-top-first" tabindex="1">Appearance</a>
+	<div class="wp-submenu"><div class="wp-submenu-wrap"><div class="wp-submenu-head">Appearance</div><ul><li class="wp-first-item"><a href="http://stemmagnetacademy.com/wp-admin/themes.php" class="wp-first-item" tabindex="1">Themes</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/widgets.php" tabindex="1">Widgets</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/nav-menus.php" tabindex="1">Menus</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/themes.php?page=ss-theme-options" tabindex="1">Theme Options</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/themes.php?page=install-required-plugins" tabindex="1">Install Plugins</a></li><li class="current"><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php" class="current" tabindex="1">Editor</a></li></ul></div></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" id="menu-plugins">
+	<div class="wp-menu-image"><a href="http://stemmagnetacademy.com/wp-admin/plugins.php" aria-label="Plugins 3"><br></a></div><div class="wp-menu-arrow"><div></div></div><a href="http://stemmagnetacademy.com/wp-admin/plugins.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" tabindex="1" aria-haspopup="true">Plugins <span class="update-plugins count-3"></span></a>
+	<div class="wp-submenu"><div class="wp-submenu-wrap"><div class="wp-submenu-head">Plugins <span class="update-plugins count-3"></span></div><ul><li class="wp-first-item"><a href="http://stemmagnetacademy.com/wp-admin/plugins.php" class="wp-first-item" tabindex="1">Installed Plugins</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/plugin-install.php" tabindex="1">Add New</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/plugin-editor.php" tabindex="1">Editor</a></li></ul></div></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" id="menu-users">
+	<div class="wp-menu-image"><a href="http://stemmagnetacademy.com/wp-admin/users.php" aria-label="Users"><br></a></div><div class="wp-menu-arrow"><div></div></div><a href="http://stemmagnetacademy.com/wp-admin/users.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" tabindex="1" aria-haspopup="true">Users</a>
+	<div class="wp-submenu"><div class="wp-submenu-wrap"><div class="wp-submenu-head">Users</div><ul><li class="wp-first-item"><a href="http://stemmagnetacademy.com/wp-admin/users.php" class="wp-first-item" tabindex="1">All Users</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/user-new.php" tabindex="1">Add New</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/profile.php" tabindex="1">Your Profile</a></li></ul></div></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" id="menu-tools">
+	<div class="wp-menu-image"><a href="http://stemmagnetacademy.com/wp-admin/tools.php" aria-label="Tools"><br></a></div><div class="wp-menu-arrow"><div></div></div><a href="http://stemmagnetacademy.com/wp-admin/tools.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" tabindex="1" aria-haspopup="true">Tools</a>
+	<div class="wp-submenu"><div class="wp-submenu-wrap"><div class="wp-submenu-head">Tools</div><ul><li class="wp-first-item"><a href="http://stemmagnetacademy.com/wp-admin/tools.php" class="wp-first-item" tabindex="1">Available Tools</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/import.php" tabindex="1">Import</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/export.php" tabindex="1">Export</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/tools.php?page=search-and-replace/search-and-replace.php" tabindex="1">Search &amp; Replace</a></li></ul></div></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" id="menu-settings">
+	<div class="wp-menu-image"><a href="http://stemmagnetacademy.com/wp-admin/options-general.php" aria-label="Settings"><br></a></div><div class="wp-menu-arrow"><div></div></div><a href="http://stemmagnetacademy.com/wp-admin/options-general.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" tabindex="1" aria-haspopup="true">Settings</a>
+	<div class="wp-submenu"><div class="wp-submenu-wrap"><div class="wp-submenu-head">Settings</div><ul><li class="wp-first-item"><a href="http://stemmagnetacademy.com/wp-admin/options-general.php" class="wp-first-item" tabindex="1">General</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/options-writing.php" tabindex="1">Writing</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/options-reading.php" tabindex="1">Reading</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/options-discussion.php" tabindex="1">Discussion</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/options-media.php" tabindex="1">Media</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/options-privacy.php" tabindex="1">Privacy</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/options-permalink.php" tabindex="1">Permalinks</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/options-general.php?page=more-fields" tabindex="1">More Fields</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/options-general.php?page=wp-manage-plugins/wp-manage-plugins.php" tabindex="1">WP Manage Plugins</a></li></ul></div></div></li>
+	<li class="wp-not-current-submenu wp-menu-separator"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_ajax-event-calendar menu-top-first menu-top-last" id="toplevel_page_ajax-event-calendar"><div class="wp-menu-image"><a href="http://stemmagnetacademy.com/wp-admin/admin.php?page=ajax-event-calendar.php" aria-label="Calendar"><img src="./Edit Themes ‹ STEM Magnet Academy — WordPress_files/em-icon-16.png" alt=""></a></div><div class="wp-menu-arrow"><div></div></div><a href="http://stemmagnetacademy.com/wp-admin/admin.php?page=ajax-event-calendar.php" class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_ajax-event-calendar menu-top-first menu-top-last" tabindex="1" aria-haspopup="true">Calendar</a>
+	<div class="wp-submenu"><div class="wp-submenu-wrap"><div class="wp-submenu-head">Calendar</div><ul><li class="wp-first-item"><a href="http://stemmagnetacademy.com/wp-admin/admin.php?page=ajax-event-calendar.php" class="wp-first-item" tabindex="1">Calendar</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/admin.php?page=aec_manage_categories" tabindex="1">Categories</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/admin.php?page=aec_activity_report" tabindex="1">Activity Report</a></li><li><a href="http://stemmagnetacademy.com/wp-admin/admin.php?page=aec_calendar_options" tabindex="1">Options</a></li></ul></div></div></li><li id="collapse-menu" class="hide-if-no-js"><div id="collapse-button"><div></div></div><span>Collapse menu</span></li></ul>
+</div>
+<div id="wpcontent">
+
+		<div id="wpadminbar" class="" role="navigation">
+			<div class="quicklinks">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://stemmagnetacademy.com/wp-admin/about.php" title="About WordPress"><span class="ab-icon"></span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu">
+		<li id="wp-admin-bar-about" class=""><a class="ab-item" tabindex="10" href="http://stemmagnetacademy.com/wp-admin/about.php">About WordPress</a>		</li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-wporg" class=""><a class="ab-item" tabindex="10" href="http://wordpress.org/">WordPress.org</a>		</li>
+		<li id="wp-admin-bar-documentation" class=""><a class="ab-item" tabindex="10" href="http://codex.wordpress.org/">Documentation</a>		</li>
+		<li id="wp-admin-bar-support-forums" class=""><a class="ab-item" tabindex="10" href="http://wordpress.org/support/">Support Forums</a>		</li>
+		<li id="wp-admin-bar-feedback" class=""><a class="ab-item" tabindex="10" href="http://wordpress.org/support/forum/requests-and-feedback">Feedback</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://stemmagnetacademy.com/">STEM Magnet Academy</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+		<li id="wp-admin-bar-view-site" class=""><a class="ab-item" tabindex="10" href="http://stemmagnetacademy.com/">Visit Site</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-updates" class=""><a class="ab-item" tabindex="10" href="http://stemmagnetacademy.com/wp-admin/update-core.php" title="1 WordPress Update, 3 Plugin Updates, 2 Theme Updates"><span class="ab-icon"></span><span class="ab-label">6</span></a>		</li>
+		<li id="wp-admin-bar-comments" class=""><a class="ab-item" tabindex="10" href="http://stemmagnetacademy.com/wp-admin/edit-comments.php" title="0 comments awaiting moderation"><span class="ab-icon"></span><span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0">0</span></a>		</li>
+		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://stemmagnetacademy.com/wp-admin/post-new.php" title="Add New"><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+		<li id="wp-admin-bar-new-post" class=""><a class="ab-item" tabindex="10" href="http://stemmagnetacademy.com/wp-admin/post-new.php">Post</a>		</li>
+		<li id="wp-admin-bar-new-media" class=""><a class="ab-item" tabindex="10" href="http://stemmagnetacademy.com/wp-admin/media-new.php">Media</a>		</li>
+		<li id="wp-admin-bar-new-link" class=""><a class="ab-item" tabindex="10" href="http://stemmagnetacademy.com/wp-admin/link-add.php">Link</a>		</li>
+		<li id="wp-admin-bar-new-page" class=""><a class="ab-item" tabindex="10" href="http://stemmagnetacademy.com/wp-admin/post-new.php?post_type=page">Page</a>		</li>
+		<li id="wp-admin-bar-new-portfolio" class=""><a class="ab-item" tabindex="10" href="http://stemmagnetacademy.com/wp-admin/post-new.php?post_type=portfolio">Project</a>		</li>
+		<li id="wp-admin-bar-new-slider" class=""><a class="ab-item" tabindex="10" href="http://stemmagnetacademy.com/wp-admin/post-new.php?post_type=slider">Slider</a>		</li>
+		<li id="wp-admin-bar-new-team" class=""><a class="ab-item" tabindex="10" href="http://stemmagnetacademy.com/wp-admin/post-new.php?post_type=team">Member</a>		</li>
+		<li id="wp-admin-bar-new-user" class=""><a class="ab-item" tabindex="10" href="http://stemmagnetacademy.com/wp-admin/user-new.php">User</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-update_notifier" class=""><a class="ab-item" tabindex="10" href="http://stemmagnetacademy.com/wp-admin/index.php?page=theme-update-notifier"><span>SmartStart <span id="ab-updates">Updates</span></span></a>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://stemmagnetacademy.com/wp-admin/profile.php" title="My Account">Howdy, admin<img alt="" src="./Edit Themes ‹ STEM Magnet Academy — WordPress_files/b450dc3e07742d5dfc136028651ae3c3" class="avatar avatar-16 photo" height="16" width="16"></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class=" ab-submenu">
+		<li id="wp-admin-bar-user-info" class=""><a class="ab-item" tabindex="-1" href="http://stemmagnetacademy.com/wp-admin/profile.php"><img alt="" src="./Edit Themes ‹ STEM Magnet Academy — WordPress_files/b450dc3e07742d5dfc136028651ae3c3(1)" class="avatar avatar-64 photo" height="64" width="64"><span class="display-name">admin</span></a>		</li>
+		<li id="wp-admin-bar-edit-profile" class=""><a class="ab-item" tabindex="10" href="http://stemmagnetacademy.com/wp-admin/profile.php">Edit My Profile</a>		</li>
+		<li id="wp-admin-bar-logout" class=""><a class="ab-item" tabindex="10" href="http://stemmagnetacademy.com/wp-login.php?action=logout&_wpnonce=f8cf812858">Log Out</a>		</li></ul></div>		</li></ul>			</div>
+		</div>
+
+		
+<div id="wpbody">
+
+<div id="wpbody-content">
+		<div id="screen-meta" class="metabox-prefs">
+
+			<div id="contextual-help-wrap" class="hidden">
+				<div id="contextual-help-back"></div>
+				<div id="contextual-help-columns">
+					<div class="contextual-help-tabs">
+						<ul>
+						
+							<li id="tab-link-overview" class="active">
+								<a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=functions%2Fcustom-functions.php&theme=smartstart&scrollto=13382&updated=true#tab-panel-overview">
+									Overview								</a>
+							</li>
+												</ul>
+					</div>
+
+										<div class="contextual-help-sidebar">
+						<p><strong>For more information:</strong></p><p><a href="http://codex.wordpress.org/Theme_Development" target="_blank">Documentation on Theme Development</a></p><p><a href="http://codex.wordpress.org/Using_Themes" target="_blank">Documentation on Using Themes</a></p><p><a href="http://codex.wordpress.org/Editing_Files" target="_blank">Documentation on Editing Files</a></p><p><a href="http://codex.wordpress.org/Template_Tags" target="_blank">Documentation on Template Tags</a></p><p><a href="http://wordpress.org/support/" target="_blank">Support Forums</a></p>					</div>
+					
+					<div class="contextual-help-tabs-wrap">
+						
+							<div id="tab-panel-overview" class="help-tab-content active">
+								<p>You can use the Theme Editor to edit the individual CSS and PHP files which make up your theme.</p>
+	<p>Begin by choosing a theme to edit from the dropdown menu and clicking Select. A list then appears of all the template files. Clicking once on any file name causes the file to appear in the large Editor box.</p>
+	<p>For PHP files, you can use the Documentation dropdown to select from functions recognized in that file. Lookup takes you to a web page with reference material about that particular function.</p>
+	<p>After typing in your edits, click Update File.</p>
+	<p><strong>Advice:</strong> think very carefully about your site crashing if you are live-editing the theme currently in use.</p>
+	<p>Upgrading to a newer version of the same theme will override changes made here. To avoid this, consider creating a <a href="http://codex.wordpress.org/Child_Themes" target="_blank">child theme</a> instead.</p>							</div>
+											</div>
+				</div>
+			</div>
+				</div>
+				<div id="screen-meta-links">
+					<div id="contextual-help-link-wrap" class="hide-if-no-js screen-meta-toggle">
+			<a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=functions%2Fcustom-functions.php&theme=smartstart&scrollto=13382&updated=true#contextual-help-wrap" id="contextual-help-link" class="show-settings">Help</a>
+			</div>
+				</div>
+		<div class="update-nag"><a href="http://codex.wordpress.org/Version_3.6.1">WordPress 3.6.1</a> is available! <a href="http://stemmagnetacademy.com/wp-admin/update-core.php">Please update now</a>.</div> 
+<div class="wrap">
+<div id="icon-themes" class="icon32"><br></div><h2>Edit Themes</h2><div id="message" class="updated"><p>File edited successfully.</p></div>
+
+<div class="fileedit-sub">
+<div class="alignleft">
+<h3>SmartStart WP - Responsive HTML5 Theme: custom-functions.php <span>(functions/custom-functions.php)</span></h3>
+</div>
+<div class="alignright">
+	<form action="http://stemmagnetacademy.com/wp-admin/theme-editor.php" method="post">
+		<strong><label for="theme">Select theme to edit: </label></strong>
+		<select name="theme" id="theme">
+
+	<option value="smartstart" selected="selected">SmartStart WP - Responsive HTML5 Theme</option>
+	<option value="twentyeleven">Twenty Eleven</option>
+	<option value="twentyten">Twenty Ten</option>		</select>
+		<input type="submit" name="Submit" id="Submit" class="button" value="Select">	</form>
+</div>
+<br class="clear">
+</div>
+	<div id="templateside">
+	<h3>Templates</h3>
+		<ul>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=404.php&theme=smartstart">404 Template<br><span class="nonessential">(404.php)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=archive.php&theme=smartstart">Archives<br><span class="nonessential">(archive.php)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=category.php&theme=smartstart">Category Template<br><span class="nonessential">(category.php)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=comments.php&theme=smartstart">Comments<br><span class="nonessential">(comments.php)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=content-aside.php&theme=smartstart">content-aside.php</a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=content-audio.php&theme=smartstart">content-audio.php</a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=content-gallery.php&theme=smartstart">content-gallery.php</a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=content-image.php&theme=smartstart">content-image.php</a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=content-link.php&theme=smartstart">content-link.php</a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=content-quote.php&theme=smartstart">content-quote.php</a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=content-video.php&theme=smartstart">content-video.php</a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=content.php&theme=smartstart">content.php</a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=footer.php&theme=smartstart">Footer<br><span class="nonessential">(footer.php)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=functions%2Fadmin.php&theme=smartstart">admin.php</a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=functions%2Fcustom-functions.php&theme=smartstart"><span class="highlight">custom-functions.php</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=functions%2Fcustom-post-types.php&theme=smartstart">custom-post-types.php</a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=functions%2Fmeta-boxes.php&theme=smartstart">meta-boxes.php</a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=functions%2Fplugin-activation.php&theme=smartstart">plugin-activation.php</a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=functions%2Fshortcodes.php&theme=smartstart">shortcodes.php</a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=functions%2Fupdate-notifier.php&theme=smartstart">update-notifier.php</a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=functions%2Fwidgets.php&theme=smartstart">widgets.php</a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=functions.php&theme=smartstart">Theme Functions<br><span class="nonessential">(functions.php)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=header.php&theme=smartstart">Header<br><span class="nonessential">(header.php)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=index.php&theme=smartstart">Main Index Template<br><span class="nonessential">(index.php)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=page-blog.php&theme=smartstart">Classroom Blog Template Page Template<br><span class="nonessential">(page-blog.php)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=page-classroom.php&theme=smartstart">Classroom Page Template Page Template<br><span class="nonessential">(page-classroom.php)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=page-school.php&theme=smartstart">School Page Template Page Template<br><span class="nonessential">(page-school.php)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=page.php&theme=smartstart">Page Template<br><span class="nonessential">(page.php)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=principal-blog.php&theme=smartstart">Principal Blog Template Page Template<br><span class="nonessential">(principal-blog.php)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=search.php&theme=smartstart">Search Results<br><span class="nonessential">(search.php)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=searchform.php&theme=smartstart">Search Form<br><span class="nonessential">(searchform.php)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=sidebar.php&theme=smartstart">Sidebar<br><span class="nonessential">(sidebar.php)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=single-portfolio.php&theme=smartstart">single-portfolio.php</a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=single-slider.php&theme=smartstart">single-slider.php</a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=single-team.php&theme=smartstart">single-team.php</a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=single.php&theme=smartstart">Single Post<br><span class="nonessential">(single.php)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=students-blog.php&theme=smartstart">Student Services Blog Page Template<br><span class="nonessential">(students-blog.php)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=tag.php&theme=smartstart">Tag Template<br><span class="nonessential">(tag.php)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=taxonomy-portfolio-categories.php&theme=smartstart">taxonomy-portfolio-categories.php</a></li>
+	</ul>
+	<h3>Styles</h3>
+	<ul>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=style.css&theme=smartstart">Stylesheet<br><span class="nonessential">(style.css)</span></a></li>
+		<li><a href="http://stemmagnetacademy.com/wp-admin/theme-editor.php?file=style-old.css&theme=smartstart">style-old.css</a></li>
+</ul>
+</div>
+	<form name="template" id="template" action="http://stemmagnetacademy.com/wp-admin/theme-editor.php" method="post">
+	<input type="hidden" id="_wpnonce" name="_wpnonce" value="44e1a353d2"><input type="hidden" name="_wp_http_referer" value="/wp-admin/theme-editor.php?file=functions%2Fcustom-functions.php&amp;theme=smartstart&amp;scrollto=13382&amp;updated=true">		 <div><textarea cols="70" rows="30" name="newcontent" id="newcontent" tabindex="1">&lt;?php
+
+/* ---------------------------------------------------------------------- */
+/*	Show main navigation
+/* ---------------------------------------------------------------------- */
+
+if( !function_exists('ss_framework_main_navigation')) {
+
+	function ss_framework_main_navigation() {
+
+		global $post, $wp_query;
+
+		$defaults = array(
+			'container'      =&gt; false,
+			'theme_location' =&gt; 'primary_nav',
+			'walker'         =&gt; new ss_framework_description_walker()
+		);
+
+		if ( get_query_var('post_type') == 'portfolio' || get_query_var('taxonomy') == 'portfolio-categories' ) {
+
+			$temp_post = $post;
+			$temp_query = $wp_query;
+			$wp_query = null;
+
+			$wp_query = new WP_Query();
+			$wp_query-&gt;query( array( 'page_id' =&gt; of_get_option('ss_portfolio_parent') ) );
+			wp_nav_menu( $defaults );
+
+			$wp_query = null;
+			$wp_query = $temp_query;
+			$post = $temp_post;
+
+		} else {
+
+			wp_nav_menu( $defaults );
+			
+		}
+
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Create main navigation descriptions
+/* ---------------------------------------------------------------------- */
+
+class ss_framework_description_walker extends Walker_Nav_Menu {
+
+	function start_el(&amp;$output, $item, $depth, $args) {
+
+		global $wp_query;
+		$indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';
+
+		$class_names = $value = '';
+
+		$classes = empty( $item-&gt;classes ) ? array() : (array) $item-&gt;classes;
+		$classes[] = 'menu-item-' . $item-&gt;ID;
+
+		$class_names = join( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args ) );
+		$class_names = ' class="' . esc_attr( $class_names ) . '"';
+
+		$id = apply_filters( 'nav_menu_item_id', 'menu-item-'. $item-&gt;ID, $item, $args );
+		$id = strlen( $id ) ? ' id="' . esc_attr( $id ) . '"' : '';
+
+		$output .= $indent . '&lt;li' . $id . $value . $class_names .'&gt;';
+
+		$attributes  = !empty( $item-&gt;attr_title )                                         ? ' title="'            . esc_attr( $item-&gt;attr_title  ) .'"' : '';
+		$attributes .= !empty( $item-&gt;target )                                             ? ' target="'           . esc_attr( $item-&gt;target      ) .'"' : '';
+		$attributes .= !empty( $item-&gt;xfn )                                                ? ' rel="'              . esc_attr( $item-&gt;xfn         ) .'"' : '';
+		$attributes .= !empty( $item-&gt;url )                                                ? ' href="'             . esc_attr( $item-&gt;url         ) .'"' : '';
+		$attributes .= !empty( $item-&gt;description ) &amp;&amp; strlen( $item-&gt;description ) &lt;= 100 ? ' data-description="' . esc_attr( $item-&gt;description ) .'"' : '';
+
+		$item_output = $args-&gt;before;
+		$item_output .= '&lt;a'. $attributes .'&gt;';
+		$item_output .= $args-&gt;link_before . apply_filters( 'the_title', $item-&gt;title, $item-&gt;ID ) . $args-&gt;link_after;
+		$item_output .= '&lt;/a&gt;';
+		$item_output .= $args-&gt;after;
+
+		$output .= apply_filters( 'walker_nav_menu_start_el', $item_output, $item, $depth, $args );
+
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	The current post—date/time
+/* ---------------------------------------------------------------------- */
+
+if( !function_exists('ss_framework_posted_on')) {
+
+	function ss_framework_posted_on() {
+
+		return sprintf( __( '&lt;a href="%1$s" title="%2$s" rel="bookmark"&gt;&lt;time datetime="%3$s" pubdate&gt;%4$s&lt;/time&gt;&lt;/a&gt;', 'ss_framework' ),
+			esc_url( get_permalink() ),
+			esc_attr( get_the_time() ),
+			esc_attr( get_the_date('c') ),
+			esc_html( get_the_date('M d Y') )
+		);
+
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Template for comments and pingbacks
+/* ---------------------------------------------------------------------- */
+
+if( !function_exists('ss_framework_comments')) {
+
+	function ss_framework_comments($comment, $args, $depth) {
+
+		$GLOBALS['comment'] = $comment;
+		switch ( $comment-&gt;comment_type ) :
+			case 'pingback' :
+			case 'trackback' :
+		?&gt;
+		&lt;li class="post pingback"&gt;
+			&lt;p&gt;&lt;?php _e( 'Pingback:', 'ss_framework' ); ?&gt; &lt;?php comment_author_link(); ?&gt;&lt;?php edit_comment_link( __( '(Edit)', 'ss_framework' ), ' ' ); ?&gt;&lt;/p&gt;
+		&lt;?php
+				break;
+			default :
+		?&gt;
+
+		&lt;li &lt;?php comment_class(); ?&gt; id="li-comment-&lt;?php comment_ID(); ?&gt;"&gt;
+
+			&lt;article id="comment-&lt;?php comment_ID(); ?&gt;"&gt;
+
+				&lt;?php echo get_avatar( $comment, 50 ); ?&gt;
+
+				&lt;div class="comment-meta"&gt;
+
+					&lt;h5 class="author"&gt;
+						&lt;?php printf( __('%s', 'ss_framework'), sprintf( '&lt;cite class="fn"&gt;%s&lt;/cite&gt;', get_comment_author_link() ) ); ?&gt;
+						&lt;?php comment_reply_link( array_merge( array('before' =&gt; ' - '), array( 'depth' =&gt; $depth, 'max_depth' =&gt; $args['max_depth'] ) ) ); ?&gt;
+					&lt;/h5&gt;
+
+					&lt;p class="date"&gt;
+						&lt;a href="&lt;?php echo esc_url( get_comment_link( $comment-&gt;comment_ID ) ); ?&gt;"&gt;
+							&lt;time pubdate datetime="&lt;?php comment_time( 'c' ); ?&gt;"&gt;
+								&lt;?php printf( __( '%1$s at %2$s', 'ss_framework' ), get_comment_date(), get_comment_time() ); ?&gt;
+							&lt;/time&gt;
+						&lt;/a&gt;
+					&lt;/p&gt;
+					
+				&lt;/div&gt;&lt;!-- end .comment-meta --&gt;
+
+				&lt;div class="comment-body"&gt;
+				
+					&lt;?php if ( $comment-&gt;comment_approved == '0' ) : ?&gt;
+						&lt;p&gt;&lt;em&gt;&lt;?php _e('Your comment is awaiting moderation.', 'ss_framework'); ?&gt;&lt;/em&gt;&lt;/p&gt;
+					&lt;?php endif; ?&gt;
+					
+					&lt;?php comment_text(); ?&gt;
+					
+					&lt;?php edit_comment_link( __( '(Edit)', 'ss_framework' ), ' ' ); ?&gt;
+					
+				&lt;/div&gt;&lt;!-- end .comment-body --&gt;
+
+			&lt;/article&gt;&lt;!-- end #comment --&gt;
+
+		&lt;/li&gt;
+
+		&lt;?php
+				break;
+		endswitch;
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Show the post content
+/* ---------------------------------------------------------------------- */
+
+if( !function_exists('ss_framework_post_content')) {
+
+	function ss_framework_post_content() {
+
+		global $post, $user_ID;
+
+		get_currentuserinfo();
+
+		if ( !isset( $GLOBALS['post-carousel'] ) &amp;&amp; ( is_singular() || get_post_format() == 'aside' ) ) {
+
+			$content = get_the_content();
+			$content = apply_filters( 'the_content', $content );
+			$content = str_replace( ']]&gt;', ']]&amp;gt;', $content );
+
+			$output = $content;
+
+			$output .= wp_link_pages( array( 'echo' =&gt; false ) );
+
+		} else {
+
+			if( get_post_format() != 'quote' )
+				$output = get_the_excerpt();
+
+		}
+
+		if( user_can( $user_ID, 'edit_posts' ) )
+			$output .= '&lt;p&gt;&lt;a title="' . __('Edit Post', 'ss_framework') . '" href="' . get_edit_post_link( $post-&gt;ID ) . '" class="post-edit-link"&gt;' . __('Edit', 'ss_framework') . '&lt;/a&gt;&lt;/p&gt;';
+
+		return $output;
+
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Show the post meta (permalink, date, tags, categories &amp; comments)
+/* ---------------------------------------------------------------------- */
+
+if( !function_exists('ss_framework_post_meta')) {
+
+	function ss_framework_post_meta() {
+
+		global $post;
+
+		if( isset( $GLOBALS['post-carousel'] ) ) {
+
+			$output = '&lt;a href="' . get_permalink() . '" title="' . sprintf( esc_attr__( 'Permalink to %s', 'ss_framework' ), the_title_attribute( 'echo=0' ) ) . '" rel="bookmark"&gt;&lt;span class="post-format ' . get_post_format() . '"&gt;' . __('Permalink', 'ss_framework') . '&lt;/span&gt;&lt;/a&gt;';
+			
+			if ( of_get_option('ss_post_date') == '1' )
+				$output .= '&lt;span class="date"&gt;' . ss_framework_posted_on() . '&lt;/span&gt;';
+
+		} else {
+
+			$output = '&lt;ul&gt;';
+
+				$output .= '&lt;li&gt;&lt;a href="' . get_permalink() . '" title="' . sprintf( esc_attr__( 'Permalink to %s', 'ss_framework' ), the_title_attribute( 'echo=0' ) ) . '" rel="bookmark"&gt;&lt;span class="post-format ' . get_post_format() . '"&gt;' . __('Permalink', 'ss_framework') . '&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;';
+
+				if ( of_get_option('ss_post_date') == '1' )
+					$output .= '&lt;li&gt;&lt;span class="title"&gt;' . __('Posted:', 'ss_framework') . '&lt;/span&gt; ' . ss_framework_posted_on() . '&lt;/li&gt;';
+
+				if( of_get_option('ss_post_categories') == '1' &amp;&amp; get_the_category_list() )
+					$output .= '&lt;li&gt;&lt;span class="title"&gt;' . __('Categories:', 'ss_framework') . '&lt;/span&gt; ' . get_the_category_list( ', ', '', $post-&gt;ID ) . '&lt;/li&gt;';
+
+				if( of_get_option('ss_post_tags') == '1' &amp;&amp; get_the_tags() )
+					$output .= '&lt;li&gt;&lt;span class="title"&gt;' . __('Tags:', 'ss_framework') . '&lt;/span&gt; ' . get_the_tag_list('', ', ', '') . '&lt;/li&gt;';
+
+				if ( of_get_option('ss_post_comments') == '1' &amp;&amp; ( comments_open() || ( '0' != get_comments_number() &amp;&amp; !comments_open() ) ) )
+					$output .= '&lt;li&gt;&lt;span class="title"&gt;' . __('Comments:', 'ss_framework') . '&lt;/span&gt; &lt;a title="Comment on ' . get_the_title() . '" href="' . get_comments_link() . '"&gt;' . get_comments_number() . '&lt;/a&gt;&lt;/li&gt;';
+
+				if ( of_get_option('ss_post_author') == '1' )
+					$output .= '&lt;li&gt;&lt;span class="title"&gt;' . __('Author:', 'ss_framework') . '&lt;/span&gt; &lt;span class="author vcard"&gt;&lt;a class="url fn n" href="' . get_author_posts_url( get_the_author_meta( 'ID' ) ) . '" title="' . sprintf( __( 'View all posts by %s', 'ss_framework' ), get_the_author() ) . '" rel="author"&gt;' . get_the_author() . '&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;';
+
+			$output .= '&lt;/ul&gt;';
+
+		}
+
+		return $output;
+
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Get featured image path
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_get_featured_image_link') ) {
+
+	function ss_framework_get_featured_image_link( $size ){
+
+		global $post;
+
+		$get_featured_image_link = get_the_post_thumbnail( $post-&gt;ID, $size );
+		preg_match("/(?&lt;=src=['|\"])[^'|\"]*?(?=['|\"])/i", $get_featured_image_link, $thePath);
+
+		return $get_featured_image_link_final = $thePath[0];
+
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Get post thumbnail data
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_get_the_post_thumbnail_data') ) {
+
+	function ss_framework_get_the_post_thumbnail_data( $post_id = 0 ) {	
+
+		if( $post_id == 0 )
+			return $post_id;
+
+		if( !get_the_post_thumbnail( $post_id ) )
+			return null;
+
+		$objDom = new SimpleXMLElement( get_the_post_thumbnail( $post_id ) );
+		$arrDom = (array)$objDom;
+
+		return (array)$arrDom['@attributes'];
+
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Get attachment ID
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_get_attachment_id') ) {
+
+	function ss_framework_get_attachment_id( $url ) {
+
+		$dir = wp_upload_dir();
+		$dir = trailingslashit( $dir['baseurl'] );
+
+		if( false === strpos( $url, $dir ) )
+			return false;
+
+		$file = basename( $url );
+
+		$query = array(
+			'post_type' =&gt; 'attachment',
+			'fields' =&gt; 'ids',
+			'meta_query' =&gt; array(
+				array(
+					'value' =&gt; $file,
+					'compare' =&gt; 'LIKE',
+				)
+			)
+		);
+
+		$query['meta_query'][0]['key'] = '_wp_attached_file';
+		$ids = get_posts( $query );
+		
+		foreach( $ids as $id ) {
+
+			if( $url == array_shift(wp_get_attachment_image_src( $id, 'full' ) ) )
+				return $id;
+
+		}
+
+		$query['meta_query'][0]['key'] = '_wp_attachment_metadata';
+		$ids = get_posts( $query );
+
+		foreach( $ids as $ids ) {
+
+			$meta = wp_get_attachment_metadata( $id );
+
+			if( is_array( $meta ) )
+				foreach( $meta['sizes'] as $size =&gt; $values ) {
+
+					if( $values['file'] == $file &amp;&amp; $url == array_shift( wp_get_attachment_image_src( $id, $size ) ) ) {
+						//$this-&gt;attachment_size = $size;
+						return $id;
+					}
+
+				}
+
+		}
+
+		return false;
+
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Get Custom Field
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_get_custom_field') ) {
+
+	function ss_framework_get_custom_field( $key, $post_id = null ) {
+
+		global $wp_query;
+
+		$post_id = $post_id ? $post_id : $wp_query-&gt;get_queried_object()-&gt;ID;
+
+		return get_post_meta( $post_id, $key, true );
+
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Return template part
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_load_template_part') ) {
+
+	function ss_framework_load_template_part( $template_name, $part_name = null ) {
+
+		ob_start();
+
+		get_template_part( $template_name, $part_name );
+
+		$output = ob_get_contents();
+
+		ob_end_clean();
+
+		return $output;
+
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Blog navigation
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_pagination') ) {
+
+	function ss_framework_pagination( $pages = '', $range = 2 ) {
+
+		$showitems = ( $range * 2 ) + 1;
+
+		global $paged, $wp_query;
+
+		if( empty( $paged ) )
+			$paged = 1;
+
+		if( $pages == '' ) {
+
+			$pages = $wp_query-&gt;max_num_pages;
+
+			if( !$pages )
+				$pages = 1;
+
+		}
+
+		if( 1 != $pages ) {
+
+			$output = '&lt;nav class="pagination"&gt;';
+
+			// if( $paged &gt; 2 &amp;&amp; $paged &gt;= $range + 1 /*&amp;&amp; $showitems &lt; $pages*/ )
+				// $output .= '&lt;a href="' . get_pagenum_link( 1 ) . '" class="next"&gt;&amp;laquo; ' . __('First', 'ss_framework') . '&lt;/a&gt;';
+
+			if( $paged &gt; 1 /*&amp;&amp; $showitems &lt; $pages*/ )
+				$output .= '&lt;a href="' . get_pagenum_link( $paged - 1 ) . '" class="next"&gt;&amp;larr; ' . __('Next', 'ss_framework') . '&lt;/a&gt;';
+
+			for ( $i = 1; $i &lt;= $pages; $i++ )  {
+
+				if ( 1 != $pages &amp;&amp; ( !( $i &gt;= $paged + $range + 1 || $i &lt;= $paged - $range - 1) || $pages &lt;= $showitems ) )
+					$output .= ( $paged == $i ) ? '&lt;span class="current"&gt;' . $i . '&lt;/span&gt;' : '&lt;a href="' . get_pagenum_link( $i ) . '"&gt;' . $i . '&lt;/a&gt;';
+
+			}
+
+			if ( $paged &lt; $pages /*&amp;&amp; $showitems &lt; $pages*/ )
+				$output .= '&lt;a href="' . get_pagenum_link( $paged + 1 ) . '" class="prev"&gt;' . __('Previous', 'ss_framework') . ' &amp;rarr;&lt;/a&gt;';
+
+			// if ( $paged &lt; $pages - 1 &amp;&amp; $paged + $range - 1 &lt;= $pages /*&amp;&amp; $showitems &lt; $pages*/ )
+				// $output .= '&lt;a href="' . get_pagenum_link( $pages ) . '" class="prev"&gt;' . __('Last', 'ss_framework') . ' &amp;raquo;&lt;/a&gt;';
+
+			$output .= '&lt;/nav&gt;';
+
+			return $output;
+
+		}
+
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Check page layout
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_check_page_layout') ) {
+
+	function ss_framework_check_page_layout( $single_project = null, $portfolio_category = null ) {
+
+		$page_layout = ss_framework_get_custom_field('ss_page_layout');
+
+		if( $single_project )
+			$page_layout = ss_framework_get_custom_field('ss_project_page_layout');
+
+		if( $portfolio_category )
+			$page_layout = ss_framework_get_custom_field( 'ss_page_layout', of_get_option('ss_portfolio_parent') );
+
+		$site_structure = of_get_option('ss_site_structure');
+
+		if( ( $page_layout == '2cl' || $page_layout == '2cr' ) || ( $page_layout != '1col' &amp;&amp; ( $site_structure == '2cl' || $site_structure == '2cr' ) ) )
+			return true;
+
+		return false;
+
+	}
+	
+}
+/* ---------------------------------------------------------------------- */
+/*	Check sidebar position
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_check_sidebar_position') ) {
+
+	function ss_framework_check_sidebar_position( $single_project = null, $portfolio_category = null ) {
+
+		$page_layout = ss_framework_get_custom_field('ss_page_layout');
+
+		if( $single_project )
+			$page_layout = ss_framework_get_custom_field('ss_project_page_layout');
+
+		if( $portfolio_category )
+			$page_layout = ss_framework_get_custom_field( 'ss_page_layout', of_get_option('ss_portfolio_parent') );
+
+		$site_structure = of_get_option('ss_site_structure');
+
+		if( $page_layout == '2cl' || ( $page_layout == '' &amp;&amp; $site_structure == '2cl' ) )
+			return 'sidebar-left';
+
+		return null;
+
+	}
+	
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Check if user is using either IE7 or IE8
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_detect_ie') ) {
+	
+	function ss_framework_detect_ie( $ie7_check = true, $ie8_check = true ) {
+
+		$ie7 = ($ie7_check == true) ? strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 7.0') : false;
+		$ie8 = ($ie8_check == true) ? strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 8.0') : false;
+		if ($ie7 !== false || $ie8 !== false) {
+			return true;
+		} else {
+			return false;
+		}
+
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Convert hex color value to rgb
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_hex2rgb') ) {
+	
+	function ss_framework_hex2rgb( $colour ) {
+
+		if ( $colour[0] == '#' )
+			$colour = substr( $colour, 1 );
+
+		if ( strlen( $colour ) == 6 ) {
+			list( $r, $g, $b ) = array( $colour[0] . $colour[1], $colour[2] . $colour[3], $colour[4] . $colour[5] );
+		} elseif ( strlen( $colour ) == 3 ) {
+			list( $r, $g, $b ) = array( $colour[0] . $colour[0], $colour[1] . $colour[1], $colour[2] . $colour[2] );
+		} else {
+			return false;
+		}
+
+		$r = hexdec( $r );
+		$g = hexdec( $g );
+		$b = hexdec( $b );
+
+		return array( 'red' =&gt; $r, 'green' =&gt; $g, 'blue' =&gt; $b );
+
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Get up-to-date Google web fonts
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_get_google_fonts') ) {
+	
+	function ss_framework_get_google_fonts() {
+
+		// Some settings
+		$fonts_url  = 'http://demo.samuli.me/google-web-fonts/get.php';
+		$cache_file = SS_BASE_DIR . 'functions/admin/cache/google-web-fonts.txt';
+		$cache_time = 60 * 60 * 24 * 7;
+
+		$cache_file_created = @file_exists( $cache_file ) ? @filemtime( $cache_file ) : 0;
+
+		// Make sure curl is enabled
+		if( is_callable('curl_init') &amp;&amp; ini_get('allow_url_fopen') ) {
+
+			// Update only once a week
+			if( time() - $cache_time &gt; $cache_file_created ) {
+
+				// Fetch fonts
+				$ch = curl_init();
+				curl_setopt( $ch, CURLOPT_URL, $fonts_url );
+				curl_setopt( $ch, CURLOPT_HEADER, 0 );
+				curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1 );
+				$data = curl_exec( $ch );
+				curl_close( $ch );
+
+				// Update cache file
+				$file = fopen( $cache_file , 'w');
+				fwrite( $file, $data );
+				fclose( $file );
+
+			}
+
+		}
+
+		$fonts = unserialize( @file_get_contents( $cache_file ) );
+
+		return $fonts;
+
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Check the current post for the existence of a short code 
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_has_shortcode') ) {
+
+	function ss_framework_has_shortcode($shortcode = '') {
+
+		global $post;
+
+		$post_obj = get_post( $post-&gt;ID );
+
+		$found = false;
+
+		if ( !$shortcode )
+			return $found;
+
+		if ( stripos( $post_obj-&gt;post_content, '[' . $shortcode ) !== false )
+			$found = true;
+
+		// return our final results  
+		return $found;
+
+	}
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Single project slider
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_single_project_slider') ) {
+
+	function ss_framework_single_project_slider( $post_id ) {
+
+		$project_slider = get_post_meta( $post_id, 'ss_project_slider' );
+		$slide_types    = array_count_values( $project_slider[0][0] );
+
+		$disable_project_slider = get_post_meta( $post_id, 'ss_disable_project_slider' );
+		$disable_project_slider = $disable_project_slider[0] == '1' ? 'disabled' : null;
+
+		$lightbox = of_get_option('ss_single_project_lightbox');
+
+		$slider_effect  = of_get_option('ss_project_slider_effect');
+		$slider_speed   = of_get_option('ss_use_custom_project_slider_speed')   ? of_get_option('ss_custom_project_slider_speed')   : of_get_option('ss_project_slider_speed');
+		$slider_timeout = of_get_option('ss_use_custom_project_slider_timeout') ? of_get_option('ss_custom_project_slider_timeout') : of_get_option('ss_project_slider_timeout');
+
+		if( $slide_types[null] &lt;= 8 || !$slide_types ) {
+
+			$output = '&lt;div class="image-gallery-slider ' . $disable_project_slider . '"&gt;';
+
+				$output .= '&lt;ul data-effect="' . $slider_effect . '" data-speed="' . $slider_speed . '" data-timeout="' .  $slider_timeout . '" data-mode="' . $disable_project_slider . '"&gt;';
+
+					foreach( $project_slider[0] as $i =&gt; $slide ) {
+
+						$output .= '&lt;li&gt;';
+
+						if( $slide['slide-type'] == 'image' ) {
+						
+							$attachment_title = ss_framework_get_attachment_id( $slide['slide-img-src'] ) ? get_the_title( ss_framework_get_attachment_id( $slide['slide-img-src'] ) ) : '';							
+
+							if( $lightbox == '1' )
+								$output .= '&lt;a href="' . $slide['slide-img-src'] . '" class="image-gallery" rel="single-project-' . $post_id . '" title="' . $attachment_title . '"&gt;';
+								
+								$output .= '&lt;img src="' . $slide['slide-img-src'] . '" alt="' . $attachment_title . '"&gt;';
+
+							if( $lightbox == '1' )
+								$output .= '&lt;/a&gt;';
+
+						} elseif( $slide['slide-type'] == 'video' ) {
+
+							$video_shortcode = '[video';
+
+								if( $slide['slide-video-mp4'] )
+									$video_shortcode .= ' mp4="' . $slide['slide-video-mp4'] . '"';
+
+								if( $slide['slide-video-webm'] )
+									$video_shortcode .= ' webm="' . $slide['slide-video-webm'] . '"';
+
+								if( $slide['slide-video-ogg'] )
+									$video_shortcode .= ' ogg="' . $slide['slide-video-ogg'] . '"';
+
+								if( $slide['slide-video-preview'] )
+									$video_shortcode .= ' poster="' . $slide['slide-video-preview'] . '"';
+
+								if( $slide['slide-video-aspect-ratio'] )
+									$video_shortcode .= ' aspect_ratio="' . $slide['slide-video-aspect-ratio'] . '"';
+
+							$video_shortcode .= ']';
+
+							$output .= do_shortcode( $video_shortcode );
+
+						} elseif( $slide['slide-type'] == 'audio' ) {
+
+							$audio_shortcode = '[audio';
+
+								if( $slide['slide-audio-mp3'] )
+									$audio_shortcode .= ' mp3="' . $slide['slide-audio-mp3'] . '"';
+
+								if( $slide['slide-audio-ogg'] )
+									$audio_shortcode .= ' ogg="' . $slide['slide-audio-ogg'] . '"';
+
+							$audio_shortcode .= ']';
+
+							$output .= do_shortcode( $audio_shortcode );
+
+						} elseif( $slide['slide-type'] == 'custom' ) {
+
+							$output .= do_shortcode( $slide['slide-custom'] );
+
+						}
+
+						$output .= '&lt;/li&gt;';
+					
+					}
+					
+				$output .= '&lt;/ul&gt;';
+				
+			$output .= '&lt;/div&gt;&lt;!-- end .image-gallery-slider --&gt;';
+
+			return $output;
+
+		}
+
+		return false;
+
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Insert portfolio filter
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_portfolio_filter') ) {
+
+	function ss_framework_portfolio_filter() {
+
+		if( ss_framework_has_shortcode('portfolio') || is_tax('portfolio-categories') ) {
+		
+			if( ss_framework_has_shortcode('portfolio') ) {
+						
+				global $post;
+
+				$post_obj = get_post( $post-&gt;ID );
+				
+				$shortcode_categories = preg_match( '/\[portfolio.+categories="/', $post_obj-&gt;post_content );
+				
+				if( $shortcode_categories ) {
+
+					$shortcode_categories = preg_replace( array('/(.|\s)*\[portfolio.+categories="/', '/".+](.|\s)*/'), '', $post_obj-&gt;post_content );
+
+					$shortcode_categories = explode( ',', $shortcode_categories );
+				
+				}
+
+			}
+			
+			if( is_tax('portfolio-categories') ) {
+			
+				global $wp_query;
+				
+				$current_category = $wp_query-&gt;get_queried_object();
+
+			}
+
+			$categories = get_terms('portfolio-categories');
+
+			$output = '&lt;ul id="portfolio-items-filter" class="' . ( is_tax('portfolio-categories') ? 'single-category' : '' ) . ' ' . ( of_get_option('ss_portfolio_category_filter') ? 'open' : '' ) . '"&gt;';
+
+			$output .= '&lt;li&gt;' . __('Showing', 'ss_framework') . '&lt;/li&gt;';
+			$output .= '&lt;li class="all"&gt;&lt;a data-categories="*" href="' . get_permalink( of_get_option('ss_portfolio_parent') ) . '"&gt;' . __('All', 'ss_framework') . '&lt;/a&gt;&lt;/li&gt;';
+		
+			foreach ( $categories as $category ) {
+			
+				$current_item = $current_category-&gt;term_id == $category-&gt;term_id ? ' class="current"' : '';
+				
+				if( $portfolio_categories &amp;&amp; in_array( $category-&gt;term_id, $portfolio_categories ) || !$portfolio_categories )
+					$output .= '&lt;li' . $current_item . '&gt;&lt;a href="' . get_term_link( $category-&gt;slug, 'portfolio-categories' ) . '" data-categories="' . $category-&gt;slug . '"&gt;' . $category-&gt;name . '&lt;/a&gt;&lt;/li&gt;';
+
+			}
+
+			$output .= '&lt;/ul&gt;&lt;!-- end #portfolio-items-filter --&gt;';
+
+			echo $output;
+
+		}
+
+	}
+	add_action('ss_framework_portfolio_filter', 'ss_framework_portfolio_filter');
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Twitter Feed widget
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_twitter_feed') ) {
+
+	function ss_framework_twitter_feed( $username, $tweet_count, $ignore_replies = true ) {
+
+		// A flag so we know if the feed was successfully parsed
+		$tweet_found = false;
+
+		// Get tweets
+		$tweets = get_transient('ss_framework_twitter_feed');
+		require_once("../../twitteroauth/twitteroauth/twitteroauth.php");
+		
+		$twitteruser = "PrincipalofSTEM";
+		$notweets = 30;
+		$consumerkey = "ZCSjIiGDficxgQt0qNoS2w";
+		$consumersecret = "ORYTgNYUenjtPpvPKwcVxJIddfgIy9SsQBNDYD5g";
+		$accesstoken = "575351816-iP7e0vMLrgIBfQnkYmjMRSmFNuzjT3EGoAqof7E";
+		$accesstokensecret = "SNvniZJtKjPWFAi2l3VEaKb5U0JFvrLpfuckUpM";
+
+		function getConnectionWithAccessToken($cons_key, $cons_secret, $oauth_token, $oauth_token_secret) {
+  			$connection = new TwitterOAuth($cons_key, $cons_secret, $oauth_token, $oauth_token_secret);
+  			return $connection;
+		}
+ 
+		$connection = getConnectionWithAccessToken($consumerkey, $consumersecret, $accesstoken, $accesstokensecret);
+	
+		// Show file from cache if still valid
+		if ( $tweets === false  ) {
+
+			// Fetch the RSS feed from Twitter
+			//$rss_feed = wp_remote_get("https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=$username");
+
+			$rss_feed = $connection-&gt;get("https://api.twitter.com/1.1/statuses/user_timeline.rss?screen_name=".$twitteruser."&amp;count=".$notweets);
+
+			// Parse the RSS feed to an XML object
+			$rss_feed = @simplexml_load_string( $rss_feed['body'] );
+
+			if( !is_wp_error( $rss_feed ) &amp;&amp; isset( $rss_feed ) ) {
+
+				// Error check: Make sure there is at least one item
+				if( count( $rss_feed-&gt;channel-&gt;item ) ) {
+
+					// Open the twitter wrapping element
+					$tweets = '&lt;ul class="tweets-feed"&gt;';
+					 
+					$tweets_count = 0;
+					$tweet_found = true;
+
+					// Iterate over tweets.
+					foreach( $rss_feed-&gt;channel-&gt;item as $tweet ) {
+
+						// Twitter feeds begin with the username, "e.g. User name: Blah"
+						// so we need to strip that from the front of our tweet
+						$tweet_desc = substr( $tweet-&gt;description, strpos( $tweet-&gt;description, ':' ) + 2 );
+						$tweet_desc = htmlspecialchars( $tweet_desc );
+						$tweet_first_char = substr( $tweet_desc, 0, 1 );
+						$tweet_user = '@'.$username;
+
+						// If we are not gnoring replies, or tweet is not a reply, process it
+						if ( $tweet_first_char != '@' || $ignore_replies == false ) {
+
+							$tweets_count++;
+
+							// Add hyperlink html tags to any urls, twitter ids or hashtags in the tweet
+							$tweet_desc = preg_replace( '/(https?:\/\/[^\s"&lt;&gt;]+)/', '&lt;a href="$1"&gt;$1&lt;/a&gt;', $tweet_desc );
+							$tweet_desc = preg_replace( '/(^|[\n\s])@([^\s"\t\n\r&lt;:]*)/is', '$1&lt;a href="http://twitter.com/$2"&gt;@$2&lt;/a&gt;', $tweet_desc );
+							$tweet_desc = preg_replace( '/(^|[\n\s])#([^\s"\t\n\r&lt;:]*)/is', '$1&lt;a href="http://twitter.com/search?q=%23$2"&gt;#$2&lt;/a&gt;', $tweet_desc );
+
+							// Convert Tweet display time to a UNIX timestamp. Twitter timestamps are in UTC/GMT time
+							//$tweet_time = strtotime( $tweet-&gt;pubDate );
+							
+							// Current UNIX timestamp.
+							/*$current_time = time();
+							$time_diff = abs( $current_time - $tweet_time );
+
+							switch ( $time_diff ) {
+
+								case ( $time_diff &lt; 60 ):
+
+									$display_time = $time_diff . __(' seconds ago', 'ss_framework');
+
+									break;
+
+								case ( $time_diff &gt;= 60 &amp;&amp; $time_diff &lt; 3600 ):
+
+									$min = floor( $time_diff/60 );
+									$display_time = $min . __(' minute', 'ss_framework');
+									if ( $min &gt; 1 )
+										$display_time .= __('s', 'ss_framework');
+									$display_time .= __(' ago', 'ss_framework');
+
+									break;
+
+								case ( $time_diff &gt;= 3600 &amp;&amp; $time_diff &lt; 86400 ):
+
+									$hour = floor( $time_diff/3600 );
+									$display_time = __('about ', 'ss_framework') . $hour . __(' hour', 'ss_framework');
+									if ( $hour &gt; 1 )
+										$display_time .= __('s', 'ss_framework');
+									$display_time .= __(' ago', 'ss_framework');
+
+									break;
+
+								case ( $time_diff &gt;= 86400 &amp;&amp; $time_diff &lt; 604800 ):
+
+									$day = floor( $time_diff/86400 );
+									$display_time = __('about ', 'ss_framework') . $day . __(' day', 'ss_framework');
+									if ( $day &gt; 1 )
+										$display_time .= __('s', 'ss_framework');
+									$display_time .= __(' ago', 'ss_framework');
+
+									break;
+
+								case ( $time_diff &gt;= 604800 &amp;&amp; $time_diff &lt; 2592000 ):
+
+									$week = floor( $time_diff/604800 );
+									$display_time = __('about ', 'ss_framework') . $week . __(' week', 'ss_framework');
+									if ( $week &gt; 1 )
+										$display_time .= __('s', 'ss_framework');
+									$display_time .= __(' ago', 'ss_framework');
+
+									break;
+
+								case ( $time_diff &gt;= 2592000 &amp;&amp; $time_diff &lt; 31536000 ):
+
+									$month = floor( $time_diff/2592000 );
+									$display_time = __('about ', 'ss_framework') . $month . __(' month', 'ss_framework');
+									if ( $month &gt; 1 )
+										$display_time .= __('s', 'ss_framework');
+									$display_time .= __(' ago', 'ss_framework');
+
+									break;
+
+								case ( $time_diff &gt; 31536000 ):
+
+									$display_time = __('more than a year ago', 'ss_framework');
+
+									break;
+
+								default:
+									$display_time = date( 'F d, Y', $tweet_time );
+									break;
+
+							}*/
+								
+							// Render the tweet
+							$tweets .= "&lt;li&gt;&lt;div class='tweet-icon'&gt;&lt;/div&gt;&lt;span class='tweet-user'&gt;&lt;a href='https://twitter.com/$tweet_user' target='_blank'&gt;$tweet_user&lt;/a&gt;&lt;/span&gt;&lt;span class='tweet-desc'&gt;&lt;a href='$tweet-&gt;link' target='_blank'&gt;$tweet_desc&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;\n";
+
+						}
+		 
+						// If we have processed enough tweets, stop
+						if ($tweets_count &gt;= $tweet_count)
+							break;
+
+					}
+
+					// Close the twitter wrapping element
+					$tweets .= "&lt;/ul&gt;&lt;div class='widget-footer'&gt;&lt;/div&gt;&lt;!-- end .tweets-feed --&gt;";
+
+					// Tweets will be updated every hour
+					set_transient('ss_framework_twitter_feed', $tweets, 60 * 60);
+
+				}
+				
+			}
+
+			// In case the RSS feed did not parse or load correctly, show a link to the Twitter account.
+			if ( !$tweet_found )
+				$tweets = "&lt;ul class='tweets-feed'&gt;&lt;li&gt;" . __('Oops, our Twitter feed is unavailable at the moment.', 'ss_framework') . " - &lt;a href='http://twitter.com/$username/' target='_blank'&gt;" . __('Follow us on Twitter!', 'ss_framework') . "&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;!-- end .tweets-feed --&gt;";
+// $twitter_user_id
+
+		}
+
+		return $tweets;
+		
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Flickr Feed widget
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_flickr_feed') ) {
+
+	function ss_framework_flickr_feed( $flickr_id, $image_count ) {
+
+		// A flag so we know if the feed was successfully parsed
+		$image_found = false;
+
+		// Get tweets
+		$images = get_transient('ss_framework_flickr_feed');
+
+		// Show file from cache if still valid
+		if ( $images === false ) {
+
+			// Fetch the RSS feed from Twitter
+			$rss_feed = wp_remote_get("http://api.flickr.com/services/feeds/photos_public.gne?id=$flickr_id&amp;format=rss");
+
+			// Parse the RSS feed to an XML object
+			$rss_feed = @simplexml_load_string( $rss_feed['body'] );
+
+			if( !is_wp_error( $rss_feed ) &amp;&amp; isset( $rss_feed ) ) {
+
+				$image = $rss_feed-&gt;channel-&gt;item;
+
+				// Error check: Make sure there is at least one item
+				if( count( $image ) ) {
+
+					// Open the flickr wrapping element
+					$images = '&lt;ul class="flickr-feed"&gt;';
+
+					$image_found = true;
+
+					for( $i = 0; $i &lt; $image_count; $i++ ) {
+
+						// Get thumbnail size
+						preg_match( '/&lt;img[^&gt;]*&gt;/i', $image[$i]-&gt;description, $image_tag );
+						preg_match( '/(?&lt;=src=[\'|"])[^\'|"]*?(?=[\'|"])/i', $image_tag[0], $image_src );
+						
+						if ( preg_match( '/(_m.jpg)$/',$image_src[0] ) ){
+							$thumb = preg_replace('/(_m.jpg)$/', '_s.jpg', $image_src[0] );
+						} elseif( preg_match( '/(_m.png)$/',$image_src[0] ) ){
+							$thumb = preg_replace('/(_m.png)$/', '_s.png', $image_src[0] );
+						} elseif( preg_match( '/(_m.gif)$/',$image_src[0] ) ){
+							$thumb = preg_replace( '/(_m.gif)$/', '_s.gif', $image_src[0] );
+						}
+
+						$image_link = $image[$i]-&gt;link;
+						$image_title = $image[$i]-&gt;title;
+
+						$images .= "&lt;li&gt;&lt;a href='$image_link' title='$image_title' target='_blank'&gt;&lt;img src='$thumb' alt='$image_title'&gt;&lt;/a&gt;&lt;/li&gt;\n";
+
+					}
+
+					// Close the twitter wrapping element
+					$images .= '&lt;/ul&gt;&lt;!-- end .flickr-feed --&gt;';
+
+					// Tweets will be updated every hour
+					set_transient('ss_framework_flickr_feed', $images, 60 * 60);
+
+				}
+			
+			}
+
+			// In case the RSS feed did not parse or load correctly, show a link to the Flickr account
+			if ( !$image_found ){
+				$images = "&lt;ul class='flickr-feed'&gt;&lt;li&gt;Oops, our Flickr feed is unavailable at the moment - &lt;a href='http://flickr.com/$flickr_id/' target='_blank'&gt;Check our images on Flickr!&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;!-- end .flickr-feed --&gt;";
+			}
+
+		}
+
+		return $images;
+		
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Insert all custom CSS styles
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_insert_custom_styles') ) {
+
+	function ss_framework_insert_custom_styles() {
+
+		$typography = of_get_option('ss_typography');
+
+		$background = of_get_option('ss_background');
+		$background_rgb = ss_framework_hex2rgb( $background['color'] ); 
+		$background_rgb = $background_rgb['red'] . ',' . $background_rgb['green']. ',' . $background_rgb['blue'];
+
+		$color_scheme_rgb = ss_framework_hex2rgb( of_get_option('ss_color_scheme') );
+		$color_scheme_rgb = $color_scheme_rgb['red'] . ',' . $color_scheme_rgb['green']. ',' . $color_scheme_rgb['blue'];
+
+		$main_heading_font = '';
+		$blockquote_heading_font = '';
+
+		if( of_get_option('ss_main_heading_font') ){
+			$main_heading_font = preg_split( '/:/', of_get_option('ss_main_heading_font') );
+			$main_heading_font = '"' . str_replace('+', ' ', $main_heading_font[0]) . '",';
+		}
+
+		if( of_get_option('ss_blockquote_heading_font') ){
+			$blockquote_heading_font = preg_split( '/:/', of_get_option('ss_blockquote_heading_font') );
+			$blockquote_heading_font = '"' . str_replace('+', ' ', $blockquote_heading_font[0]) . '",';
+		}
+
+		$if_ie7 = ss_framework_detect_ie( $ie7_check = true, $ie8_check = true );
+
+		?&gt;
+
+&lt;style&gt;
+/* Main styles */
+body {
+	color: &lt;?php echo $typography['color']; ?&gt;;
+	font: &lt;?php echo $typography['style']; ?&gt; &lt;?php echo $typography['size']; ?&gt;/1.7 &lt;?php echo $typography['face']; ?&gt;;
+}
+
+::-moz-selection { background: &lt;?php echo of_get_option('ss_color_scheme'); ?&gt;; color: &lt;?php echo $background['color']; ?&gt;; text-shadow: none; }
+::selection { background: &lt;?php echo of_get_option('ss_color_scheme'); ?&gt;; color: &lt;?php echo $background['color']; ?&gt;; text-shadow: none; }
+
+/* Background (hex) */
+body { background: &lt;?php echo $background['color']; ?&gt; url(&lt;?php echo $background['image']; ?&gt;) &lt;?php echo $background['repeat']; ?&gt; &lt;?php echo $background['position']; ?&gt; &lt;?php echo $background['scroll']; ?&gt;; }
+
+.tabs-nav li.active a,
+.ss-slider, .ss-slider .slide-images-container,
+.ss-slider .slide-bg-image, .ss-slider .buttons-container,
+.projects-carousel img, #portfolio-items article img,
+.comment .avatar,
+.not-ie #footer:before { background-color: &lt;?php echo $background['color']; ?&gt;; }
+
+.button, input[type="submit"], input[type="reset"], button,
+.button:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:hover,
+.dropcap.dark,
+#main-nav ul ul a,
+#main-nav ul ul a:hover, #main-nav ul ul .hover &gt; a, #main-nav ul ul .current &gt; a, #main-nav ul ul .current &gt; a:hover,
+.ss-slider .slide-button .dropcap,
+.ss-slider .slide-content .button,
+#portfolio-items-filter a { color: &lt;?php echo $background['color']; ?&gt;; }
+
+.tabs-nav li a { text-shadow: 0 1px 0 &lt;?php echo $background['color']; ?&gt;; }
+
+.tabs-nav li.active a { border-bottom-color: &lt;?php echo $background['color']; ?&gt;; }
+
+.ss-slider .slide-button, .no-js .ss-slider .slide-button:hover {
+-webkit-box-shadow: 1px 0 0 &lt;?php echo $background['color']; ?&gt; inset, 0 1px 0 0 &lt;?php echo $background['color']; ?&gt; inset;
+   -moz-box-shadow: 1px 0 0 &lt;?php echo $background['color']; ?&gt; inset, 0 1px 0 0 &lt;?php echo $background['color']; ?&gt; inset;
+        box-shadow: 1px 0 0 &lt;?php echo $background['color']; ?&gt; inset, 0 1px 0 0 &lt;?php echo $background['color']; ?&gt; inset;
+}
+
+.ss-slider .slide:first-child .slide-button {
+-webkit-box-shadow: 0 1px 0 0 &lt;?php echo $background['color']; ?&gt; inset;
+   -moz-box-shadow: 0 1px 0 0 &lt;?php echo $background['color']; ?&gt; inset;
+        box-shadow: 0 1px 0 0 &lt;?php echo $background['color']; ?&gt; inset;
+}
+
+@media only screen and (max-width: 767px) { .ss-slider.fully-loaded, .ss-slider.fully-loaded .slide-images-container { background-color: &lt;?php echo $background['color']; ?&gt;; } }
+
+/* Background (rgb) */
+.single-image .zoom, .image-gallery .zoom, .iframe .zoom,
+.no-js .single-image:before, .no-js .image-gallery:before, .no-js .iframe:before {
+	background: rgb(&lt;?php echo $background_rgb; ?&gt;);
+	background: rgba(&lt;?php echo $background_rgb; ?&gt;, 0.4);
+}
+
+
+/* Main heading font*/
+h1, h2, h3, h4, h5, h6,
+.button, input[type="submit"], input[type="reset"], button,
+.dropcap,
+label, input, textarea, select,
+#main-nav a,
+.ss-slider .slide-button h5,
+.projects-carousel, #portfolio-items,
+.entry-meta { font-family: &lt;?php echo $main_heading_font; ?&gt; &lt;?php echo $typography['face']; ?&gt;; }
+
+.entry-form label { font-family: &lt;?php echo $typography['face']; ?&gt;; }
+
+@media only screen and (max-width: 959px) { .extended-pricing-table .features li:before { font-family: &lt;?php echo $main_heading_font ?&gt; &lt;?php echo $typography['face']; ?&gt;; } }
+
+/* Blockquote font */
+blockquote { font-family: &lt;?php echo $blockquote_heading_font; ?&gt; &lt;?php echo $typography['face']; ?&gt;; }
+
+/* Color scheme (hex) */
+.button, input[type="submit"], input[type="reset"], button,
+.not-ie #main-nav .current_page_item:after, .not-ie #main-nav .current_page_parent:after, .not-ie #main-nav .current-menu-item:after,
+#main-nav ul ul a:hover, #main-nav ul ul .hover &gt; a,
+#main-nav ul ul .current_page_item &gt; a, #main-nav ul ul .current_page_item &gt; a:hover,
+#main-nav ul ul .current_page_parent &gt; a, #main-nav ul ul .current_page_parent &gt; a:hover,
+#main-nav ul ul .current-menu-item &gt; a, #main-nav ul ul .current-menu-item &gt; a:hover,
+.ss-slider .active-slide-bar,
+.not-ie .projects-carousel a:hover:after, #portfolio-items &gt; article:hover:after,
+.not-ie .team-member:hover:after,
+#portfolio-items-filter a  { background: &lt;?php echo of_get_option('ss_color_scheme'); ?&gt;; }
+
+a:hover, a &gt; *:hover,
+.button.no-bg:hover,
+#main-nav a:hover, #main-nav .hover &gt; a,
+#main-nav .current_page_item &gt; a, #main-nav .current_page_parent &gt; a, #main-nav .current-menu-item &gt; a,
+.acc-trigger a:hover, .acc-trigger.active a, .acc-trigger.active a:hover,
+.tabs-nav li a:hover, .tabs-nav li.active a,
+.ss-slider .slide-button:hover, .ss-slider.fully-loaded .slide-button.active,
+.ss-slider.fully-loaded .slide-button.active h5,
+.ss-slider .slide-content a,
+.projects-carousel a:hover .title, #portfolio-items &gt; article:hover .title,
+.entry-meta a:hover, .entry-meta a:hover time,
+a:hover &gt; .post-format,
+.comment .author a:hover,
+.comment .date a:hover, .comment .date a:hover time,
+.pagination a:hover, .comments-pagination a:hover,
+.single-portfolio .page-header a:hover,
+.widget li a:hover,
+#sidebar .tweets-feed li a, #footer .tweets-feed li a,
+#footer a:hover, #footer-bottom a:hover  { color: &lt;?php echo of_get_option('ss_color_scheme'); ?&gt;; }
+
+.button:hover .arrow,
+#back-to-top:hover, .touch-device #back-to-top:active,
+.jcarousel-next:hover, .jcarousel-next:focus, .jcarousel-next:active,
+.jcarousel-prev:hover, .jcarousel-prev:focus, .jcarousel-prev:active,
+.not-ie .projects-carousel a:hover:after, .not-ie #portfolio-items &gt; article:hover:after,
+a:hover &gt; .post-format { background-color: &lt;?php echo of_get_option('ss_color_scheme'); ?&gt;; }
+
+#main-nav a:hover, #main-nav .hover &gt; a,
+#main-nav .current_page_item &gt; a, #main-nav .current_page_parent &gt; a, #main-nav .current-menu-item &gt; a,
+.projects-carousel a:hover, #portfolio-items &gt; article:hover,
+.team-member:hover  { border-bottom-color: &lt;?php echo of_get_option('ss_color_scheme'); ?&gt;; }
+
+#main-nav a:hover, #main-nav .hover &gt; a,
+#main-nav .current_page_item &gt; a, #main-nav .current_page_parent &gt; a, #main-nav .current-menu-item &gt; a,
+.tabs-nav li.active a { border-top-color: &lt;?php echo of_get_option('ss_color_scheme'); ?&gt;; }
+
+@media only screen and (max-width: 959px) { .ss-slider.fully-loaded .slide-button.active { border-top-color: &lt;?php echo of_get_option('ss_color_scheme'); ?&gt;; } }
+@media only screen and (max-width: 767px) { #main-nav &gt; ul &gt; .current:last-child a { border-bottom-color: &lt;?php echo of_get_option('ss_color_scheme'); ?&gt;; } }
+
+/* Color scheme (rgb) */
+.image-gallery-slider-nav a, .ss-slider .pagination-container a {
+	&lt;?php if( $if_ie7 ) echo 'background-color: rgb(' . $color_scheme_rgb . ');'; ?&gt;
+	&lt;?php if( !$if_ie7 ) echo 'background-color: rgba(' . $color_scheme_rgb . ', 0.6);'; ?&gt;
+}
+
+.image-gallery-slider-nav a:hover, .image-gallery-slider-nav a:active,
+.ss-slider .pagination-container a:hover, .ss-slider.show-content-onhover:hover .pagination-container a:hover {
+	&lt;?php if( $if_ie7 ) echo 'background-color: rgb(' . $color_scheme_rgb . ');'; ?&gt;
+	&lt;?php if( !$if_ie7 ) echo 'background-color: rgba(' . $color_scheme_rgb . ', 1);'; ?&gt;
+}
+
+@media only screen and (max-width: 767px) {
+	.ss-slider .pagination-container a, .ss-slider .pagination-container a:hover {
+		&lt;?php if( $if_ie7 ) echo 'background-color: rgb(' . $color_scheme_rgb . ');'; ?&gt;
+		&lt;?php if( !$if_ie7 ) echo 'background-color: rgba(' . $color_scheme_rgb . ', 0.6);'; ?&gt;
+	}
+}
+
+&lt;?php
+	if( of_get_option('ss_custom_css') )
+		echo of_get_option('ss_custom_css');
+?&gt;
+
+&lt;/style&gt;
+
+		&lt;?php
+
+	}
+	add_action('wp_head', 'ss_framework_insert_custom_styles');
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Insert custom JS
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_insert_custom_js') ) {
+
+	function ss_framework_insert_custom_js() {
+		
+		if( of_get_option('ss_custom_js') )
+			echo "\n" . '&lt;script&gt;' . of_get_option('ss_custom_js') . '&lt;/script&gt;' . "\n";		
+	
+	}
+	add_action('wp_footer', 'ss_framework_insert_custom_js');
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	VideoJS Flash fallback url
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_videojs_fallback') ) {
+
+	function ss_framework_videojs_fallback() {
+		?&gt;
+
+&lt;script&gt;
+_V_.options.flash.swf = '&lt;?php echo SS_BASE_URL; ?&gt;js/video-js.swf';
+&lt;/script&gt;
+
+		&lt;?php
+
+	}
+	add_action('wp_head', 'ss_framework_videojs_fallback');
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Insert all sliders' scripts
+/* ---------------------------------------------------------------------- */
+
+if ( !function_exists('ss_framework_insert_sliders') ) {
+
+	function ss_framework_insert_sliders_scripts() {
+
+		global $wpdb;
+
+		$query = "SELECT post_id
+				  FROM $wpdb-&gt;postmeta
+				  WHERE meta_key = 'ss_slider_slides'";
+
+		$sliders = $wpdb-&gt;get_results( $query );
+
+		foreach ( $sliders as $slider ):
+
+			$post_obj = get_post( $slider-&gt;post_id );
+
+			// Check that slider actually exist, so we don't insert unnecessary code
+			if( !ss_framework_has_shortcode('slider') &amp;&amp; get_post_type() != 'slider' )
+				continue;
+
+			// Check that slider is published
+			if( $post_obj-&gt;post_status != 'publish' )
+				continue;
+
+		?&gt;
+
+&lt;script&gt;
+
+(function( $ ) {
+
+	var $slider = $('#ss-&lt;?php echo $post_obj-&gt;post_name; ?&gt;');
+
+	if( $slider.length ) {
+
+		// Prevent multiple initialization
+		if( $slider.data('init') === true )
+			return false;
+		
+		$slider.data( 'init', true )
+			   .smartStartSlider({
+				   width              : &lt;?php echo ss_framework_get_custom_field('ss_slider_width', $slider-&gt;post_id ); ?&gt;,
+				   height             : &lt;?php echo ss_framework_get_custom_field('ss_slider_height', $slider-&gt;post_id ); ?&gt;,
+				   contentSpeed       : &lt;?php echo ss_framework_get_custom_field('ss_slider_content_speed', $slider-&gt;post_id ); ?&gt;,
+				   showContentOnhover : &lt;?php echo ss_framework_get_custom_field('ss_slider_show_content_onhover', $slider-&gt;post_id ); ?&gt;,
+				   hideContent        : &lt;?php echo ss_framework_get_custom_field('ss_slider_hide_content', $slider-&gt;post_id ); ?&gt;,
+				   contentPosition    : "&lt;?php echo ss_framework_get_custom_field('ss_slider_content_position', $slider-&gt;post_id ); ?&gt;",
+				   timeout            : &lt;?php echo ss_framework_get_custom_field('ss_slider_autoplay', $slider-&gt;post_id ); ?&gt;,
+				   pause              : &lt;?php echo ss_framework_get_custom_field('ss_slider_stop_on_click', $slider-&gt;post_id ); ?&gt;,
+				   pauseOnHover       : &lt;?php echo ss_framework_get_custom_field('ss_slider_pause_on_hover', $slider-&gt;post_id ); ?&gt;,
+				   hideBottomButtons  : &lt;?php echo ( ss_framework_get_custom_field('ss_slider_hide_bottom_buttons', $slider-&gt;post_id ) ? ss_framework_get_custom_field('ss_slider_hide_bottom_buttons', $slider-&gt;post_id ) : 0 ); ?&gt;,
+				   type               : {
+					   mode           : "&lt;?php echo ss_framework_get_custom_field('ss_slider_transition', $slider-&gt;post_id ); ?&gt;",
+					   speed          : &lt;?php echo ss_framework_get_custom_field('ss_slider_speed', $slider-&gt;post_id ); ?&gt;,
+					   easing         : "&lt;?php echo ss_framework_get_custom_field('ss_slider_easing', $slider-&gt;post_id ); ?&gt;",
+					   seqfactor      : &lt;?php echo ss_framework_get_custom_field('ss_slider_seq_factor', $slider-&gt;post_id ); ?&gt;
+				   }
+			   });
+
+		// Detect swipe gestures support
+		if( Modernizr.touch ) {
+
+			function swipeFunc( e, dir ) {
+			
+				var $slider = $( e.currentTarget );
+				
+				if( dir === 'left' ) {
+					$slider.find('.pagination-container .next').trigger('click');
+				}
+				
+				if( dir === 'right' ) {
+					$slider.find('.pagination-container .prev').trigger('click');
+				}
+				
+			}
+			
+			$slider.swipe({
+				swipeLeft       : swipeFunc,
+				swipeRight      : swipeFunc,
+				allowPageScroll : 'auto'
+			});
+			
+		}
+
+	}
+
+})( jQuery );
+
+&lt;/script&gt;
+
+		&lt;?php
+
+		endforeach;
+
+	}
+	add_action('ss_framework_custom_scripts', 'ss_framework_insert_sliders_scripts');
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Create custom menu descriptions
+/* ---------------------------------------------------------------------- */
+
+class Menu_With_Description extends Walker_Nav_Menu {
+    function start_el(&amp;$output, $item, $depth, $args) {
+        global $wp_query;
+		
+        $indent = ( $depth ) ? str_repeat( "", $depth ) : '';
+ 
+        $class_names = $value = '';
+ 
+        $classes = empty( $item-&gt;classes ) ? array() : (array) $item-&gt;classes;
+ 
+        $class_names = join( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item ) );
+        $class_names = ' class="' . esc_attr( $class_names ) . '"';
+ 
+        $output .= $indent . '&lt;li id="menu-item-'. $item-&gt;ID . '"' . $value . $class_names .'&gt;';
+ 
+        $attributes  = ! empty( $item-&gt;attr_title ) ? ' title="'  . esc_attr( $item-&gt;attr_title ) .'"' : '';
+        $attributes .= ! empty( $item-&gt;target )     ? ' target="' . esc_attr( $item-&gt;target     ) .'"' : '';
+        $attributes .= ! empty( $item-&gt;xfn )        ? ' rel="'    . esc_attr( $item-&gt;xfn        ) .'"' : '';
+        $attributes .= ! empty( $item-&gt;url )        ? ' href="'   . esc_attr( $item-&gt;url        ) .'"' : '';
+		
+		// get user defined attributes for thumbnail images
+		$attr_defaults = array( 'class' =&gt; 'nav_thumb' , 'alt' =&gt; esc_attr( $item-&gt;attr_title ) , 'title' =&gt; esc_attr( $item-&gt;attr_title ) );
+		$attr = isset( $args-&gt;thumbnail_attr ) ? $args-&gt;thumbnail_attr : '';
+		$attr = wp_parse_args( $attr , $attr_defaults );
+ 
+        $item_output = $args-&gt;before;
+		
+		// thumbnail image output
+		$item_output .= ( isset( $args-&gt;thumbnail_link ) &amp;&amp; $args-&gt;thumbnail_link ) ? '&lt;a' . $attributes . '&gt;' : '';
+		$item_output .= apply_filters( 'menu_item_thumbnail' , ( isset( $args-&gt;thumbnail ) &amp;&amp; $args-&gt;thumbnail ) ? get_the_post_thumbnail( $item-&gt;object_id , ( isset( $args-&gt;thumbnail_size ) ) ? $args-&gt;thumbnail_size : 'thumbnail' , $attr ) : '' , $item , $args , $depth );		
+		$item_output .= ( isset( $args-&gt;thumbnail_link ) &amp;&amp; $args-&gt;thumbnail_link ) ? '&lt;/a&gt;' : '';
+		
+		// menu link output
+        $item_output .= '&lt;a'. $attributes .'&gt;';
+        $item_output .= $args-&gt;link_before . apply_filters( 'the_title', $item-&gt;title, $item-&gt;ID ) . $args-&gt;link_after;
+		
+		// menu description output based on depth
+        $item_output .= ( $args-&gt;desc_depth &gt;= $depth ) ? '&lt;br /&gt;&lt;span class="sub"&gt;' . $item-&gt;description . '&lt;/span&gt;' : '';
+		
+		// close menu link anchor
+        $item_output .= '&lt;/a&gt;';
+        $item_output .= $args-&gt;after;
+ 
+        $output .= apply_filters( 'walker_nav_menu_start_el', $item_output, $item, $depth, $args );
+    }
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Hijack custom menu 
+/* ---------------------------------------------------------------------- */
+
+add_filter( 'wp_nav_menu_args' , 'my_add_menu_descriptions' );
+function my_add_menu_descriptions( $args ) {
+	if ( ( $args['theme_location'] != 'primary' ) &amp;&amp; ( $args['theme_location'] != 'secondary' ) ) {
+		$args['walker'] = new Menu_With_Description;
+		$args['desc_depth'] = 0;
+		$args['thumbnail'] = true;
+		$args['thumbnail_link'] = false;
+		$args['thumbnail_size'] = 'nav_thumb';
+		$args['thumbnail_attr'] = array( 'class' =&gt; 'nav_thumb my_thumb' , 'alt' =&gt; 'test' , 'title' =&gt; 'test' );
+	}
+
+	return $args;	
+}</textarea>
+		 <input type="hidden" name="action" value="update">
+		 <input type="hidden" name="file" value="functions/custom-functions.php">
+		 <input type="hidden" name="theme" value="smartstart">
+		 <input type="hidden" name="scrollto" id="scrollto" value="13382">
+		 </div>
+			<div id="documentation" class="hide-if-no-js">
+		<label for="docs-list">Documentation:</label>
+		<select name="docs-list" id="docs-list"><option value="">Function Name...</option><option value="SimpleXMLElement">SimpleXMLElement()</option><option value="TwitterOAuth">TwitterOAuth()</option><option value="WP_Query">WP_Query()</option><option value="__">__()</option><option value="_e">_e()</option><option value="add_action">add_action()</option><option value="add_filter">add_filter()</option><option value="apply_filters">apply_filters()</option><option value="array_count_values">array_count_values()</option><option value="array_filter">array_filter()</option><option value="array_merge">array_merge()</option><option value="array_shift">array_shift()</option><option value="basename">basename()</option><option value="comment_ID">comment_ID()</option><option value="comment_author_link">comment_author_link()</option><option value="comment_class">comment_class()</option><option value="comment_reply_link">comment_reply_link()</option><option value="comment_text">comment_text()</option><option value="comment_time">comment_time()</option><option value="comments_open">comments_open()</option><option value="count">count()</option><option value="curl_close">curl_close()</option><option value="curl_exec">curl_exec()</option><option value="curl_init">curl_init()</option><option value="curl_setopt">curl_setopt()</option><option value="do_shortcode">do_shortcode()</option><option value="edit_comment_link">edit_comment_link()</option><option value="esc_attr">esc_attr()</option><option value="esc_attr__">esc_attr__()</option><option value="esc_html">esc_html()</option><option value="esc_url">esc_url()</option><option value="explode">explode()</option><option value="fclose">fclose()</option><option value="file_exists">file_exists()</option><option value="file_get_contents">file_get_contents()</option><option value="filemtime">filemtime()</option><option value="fopen">fopen()</option><option value="function_exists">function_exists()</option><option value="fwrite">fwrite()</option><option value="get_author_posts_url">get_author_posts_url()</option><option value="get_avatar">get_avatar()</option><option value="get_comment_author_link">get_comment_author_link()</option><option value="get_comment_date">get_comment_date()</option><option value="get_comment_link">get_comment_link()</option><option value="get_comment_time">get_comment_time()</option><option value="get_comments_link">get_comments_link()</option><option value="get_comments_number">get_comments_number()</option><option value="get_currentuserinfo">get_currentuserinfo()</option><option value="get_edit_post_link">get_edit_post_link()</option><option value="get_pagenum_link">get_pagenum_link()</option><option value="get_permalink">get_permalink()</option><option value="get_post">get_post()</option><option value="get_post_format">get_post_format()</option><option value="get_post_meta">get_post_meta()</option><option value="get_post_type">get_post_type()</option><option value="get_posts">get_posts()</option><option value="get_query_var">get_query_var()</option><option value="get_template_part">get_template_part()</option><option value="get_term_link">get_term_link()</option><option value="get_terms">get_terms()</option><option value="get_the_author">get_the_author()</option><option value="get_the_author_meta">get_the_author_meta()</option><option value="get_the_category_list">get_the_category_list()</option><option value="get_the_content">get_the_content()</option><option value="get_the_date">get_the_date()</option><option value="get_the_excerpt">get_the_excerpt()</option><option value="get_the_post_thumbnail">get_the_post_thumbnail()</option><option value="get_the_tag_list">get_the_tag_list()</option><option value="get_the_tags">get_the_tags()</option><option value="get_the_time">get_the_time()</option><option value="get_the_title">get_the_title()</option><option value="get_transient">get_transient()</option><option value="hexdec">hexdec()</option><option value="htmlspecialchars">htmlspecialchars()</option><option value="in_array">in_array()</option><option value="ini_get">ini_get()</option><option value="is_array">is_array()</option><option value="is_callable">is_callable()</option><option value="is_singular">is_singular()</option><option value="is_tax">is_tax()</option><option value="is_wp_error">is_wp_error()</option><option value="join">join()</option><option value="ob_end_clean">ob_end_clean()</option><option value="ob_get_contents">ob_get_contents()</option><option value="ob_start">ob_start()</option><option value="of_get_option">of_get_option()</option><option value="preg_match">preg_match()</option><option value="preg_replace">preg_replace()</option><option value="preg_split">preg_split()</option><option value="printf">printf()</option><option value="set_transient">set_transient()</option><option value="simplexml_load_string">simplexml_load_string()</option><option value="sprintf">sprintf()</option><option value="ss_framework_description_walker">ss_framework_description_walker()</option><option value="str_repeat">str_repeat()</option><option value="str_replace">str_replace()</option><option value="stripos">stripos()</option><option value="strlen">strlen()</option><option value="strpos">strpos()</option><option value="substr">substr()</option><option value="the_title_attribute">the_title_attribute()</option><option value="time">time()</option><option value="trailingslashit">trailingslashit()</option><option value="unserialize">unserialize()</option><option value="user_can">user_can()</option><option value="wp_get_attachment_image_src">wp_get_attachment_image_src()</option><option value="wp_get_attachment_metadata">wp_get_attachment_metadata()</option><option value="wp_link_pages">wp_link_pages()</option><option value="wp_nav_menu">wp_nav_menu()</option><option value="wp_parse_args">wp_parse_args()</option><option value="wp_remote_get">wp_remote_get()</option><option value="wp_upload_dir">wp_upload_dir()</option></select>		<input type="button" class="button" value=" Lookup " onclick="if ( &#39;&#39; != jQuery(&#39;#docs-list&#39;).val() ) { window.open( &#39;http://api.wordpress.org/core/handbook/1.0/?function=&#39; + escape( jQuery( &#39;#docs-list&#39; ).val() ) + &#39;&amp;locale=en_US&amp;version=3.4.1&amp;redirect=true&#39;); }">
+		</div>
+	
+		<div>
+		<p class="submit"><input type="submit" name="submit" id="submit" class="button-primary" value="Update File" tabindex="2"></p>		</div>
+	</form>
+<br class="clear">
+</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+jQuery(document).ready(function($){
+	$('#template').submit(function(){ $('#scrollto').val( $('#newcontent').scrollTop() ); });
+	$('#newcontent').scrollTop( $('#scrollto').val() );
+});
+/* ]]> */
+</script>
+
+<div class="clear"></div></div><!-- wpbody-content -->
+<div class="clear"></div></div><!-- wpbody -->
+<div class="clear"></div></div><!-- wpcontent -->
+
+<div id="footer">
+<p id="footer-left" class="alignleft"><span id="footer-thankyou">Thank you for creating with <a href="http://wordpress.org/">WordPress</a>.</span></p>
+<p id="footer-upgrade" class="alignright"><strong><a href="http://stemmagnetacademy.com/wp-admin/update-core.php">Get Version 3.6.1</a></strong></p>
+<div class="clear"></div>
+</div>
+<script type="text/javascript">jQuery(document).ready(function($) { {$('.plugin-count').remove();} });</script><link rel="stylesheet" id="thickbox-css" href="./Edit Themes ‹ STEM Magnet Academy — WordPress_files/thickbox.css" type="text/css" media="all">
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var commonL10n = {"warnDelete":"You are about to permanently delete the selected items.\n  'Cancel' to stop, 'OK' to delete."};var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/stemmagnetacademy.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif","closeImage":"http:\/\/stemmagnetacademy.com\/wp-includes\/js\/thickbox\/tb-close.png"};/* ]]> */
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ STEM Magnet Academy — WordPress_files/load-scripts(1).php"></script>
+
+<div class="clear"></div></div><!-- wpwrap -->
+<script type="text/javascript">if(typeof wpOnload=='function')wpOnload();</script>
+
+
+</body></html>
